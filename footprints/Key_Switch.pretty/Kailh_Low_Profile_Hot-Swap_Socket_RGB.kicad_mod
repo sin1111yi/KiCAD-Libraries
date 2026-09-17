@@ -1,0 +1,290 @@
+(footprint "Kailh_Low_Profile_Hot-Swap_Socket_RGB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Kailh low profile hot-swap socket with a reverse-mounted 3528 RGB LED")
+	(tags "Kailh")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fe11357a-bbb3-4030-9892-12a5ee42a8e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Kailh_Low_Profile_Hot-Swap_Socket_RGB"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b522b76a-0405-4bf3-8f99-cb4badb8fe61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fa6788f-d4b0-477e-b954-2d6668c680da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4dcc1b07-c3ed-44f3-a158-bc56579270e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -8 -8)
+		(end -8 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58ed60d0-a039-4c0d-89dd-24d4e0038ba8")
+	)
+	(fp_line
+		(start -8 8)
+		(end 8 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3387472-12cd-4592-ab26-ea596e7e534a")
+	)
+	(fp_line
+		(start 8 -8)
+		(end -8 -8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "104461dd-617c-4c2b-9811-59df2d01b800")
+	)
+	(fp_line
+		(start 8 -8)
+		(end 8 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d49df10a-77e6-4a98-a01d-dfaeaa81309c")
+	)
+	(fp_line
+		(start -8 -8)
+		(end -8 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "0b1ffef2-16b7-4948-8d3d-ebd8f1306dbd")
+	)
+	(fp_line
+		(start -8 -8)
+		(end 8 -8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ce587621-4b3b-402f-b361-a85bbeadde19")
+	)
+	(fp_line
+		(start -8 8)
+		(end 8 8)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "dc98d3f7-ab02-4f0d-91b7-6faa63dd7ccd")
+	)
+	(fp_line
+		(start 3.8 5.9)
+		(end 3.8 6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "cb0ba2a8-96ae-494b-8653-4a6c624734dc")
+	)
+	(fp_line
+		(start 3.8 6.6)
+		(end 3.2 6.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "e7a4f3ae-6ade-42e7-865e-a6071639a6b1")
+	)
+	(fp_line
+		(start 8 -8)
+		(end 8 -5.2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "20e83465-c58e-4d18-aa87-d75664c015af")
+	)
+	(fp_line
+		(start 8 8)
+		(end 8 -2.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "0bb198fe-4ecb-42c9-85b2-b25eb9107ce8")
+	)
+	(fp_rect
+		(start -1.8 3.6)
+		(end 1.8 6.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "572fb680-1b83-417f-a58f-a9164b5f1418")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0543079-2690-48a0-bb7e-105dae157f03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -5 5.2)
+		(size 1.5 2)
+		(drill oval 1.5 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9b15f1fa-bc60-40da-a70f-deebcf0760cf")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -6)
+		(size 3.1 3.1)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0eef73d5-c2a4-4d37-a88c-f65abe6bc8a0")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5.1 5.1)
+		(drill 5.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "77a546bc-9260-4a89-9878-51c72ec6a8ae")
+	)
+	(pad "" np_thru_hole circle
+		(at 5 -3.8)
+		(size 3.1 3.1)
+		(drill 3.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d4e7fe1c-9765-409b-a7ff-81048437e674")
+	)
+	(pad "1" smd rect
+		(at -3.75 -6.1)
+		(size 2.4 2.4)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "81cbaff3-45eb-470b-a9c1-dcdb28c7f50b")
+	)
+	(pad "2" smd rect
+		(at 8.75 -3.8)
+		(size 2.4 2.4)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "1ea0c30d-5a20-4485-bd24-c419ead11295")
+	)
+	(pad "3" smd rect
+		(at 2.8 6)
+		(size 1.6 0.9)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "28becb15-ae65-41b7-8365-47364d555177")
+	)
+	(pad "4" smd rect
+		(at 2.8 4.5)
+		(size 1.6 0.9)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d1b4128a-e223-43af-b191-2670fe6dd17c")
+	)
+	(pad "5" smd rect
+		(at -2.8 4.5)
+		(size 1.6 0.9)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d521adf1-97c4-4d5b-be39-1422c4f9e64d")
+	)
+	(pad "6" smd rect
+		(at -2.8 6)
+		(size 1.6 0.9)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "49d11f1c-b42a-4d72-b71e-102b73d11e49")
+	)
+	(embedded_fonts no)
+	(model "D:/KiCAD/libraries/3dmodels/Key_Switch.3dshapes/Kailh_Choc_PG1350_Hot-Swap_Socket.step"
+		(offset
+			(xyz 10 6 -1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+	(model "D:/KiCAD/libraries/3dmodels/Key_Switch.3dshapes/LED_RGB_TONYU-PLCC4_3.2x2.8mm_DY-S352818.step"
+		(offset
+			(xyz -1.6 -6.6 -1.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "D:/KiCAD/libraries/3dmodels/Key_Switch.3dshapes/Kailh_PG1353_Short_Switch.step"
+		(offset
+			(xyz 0 0 2.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 90)
+		)
+	)
+)
